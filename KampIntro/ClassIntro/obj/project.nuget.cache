@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gg5Fuv7Cc50q6D6c55HPtp93E9DmXW9ohexVU5jkF+WUXbbEgwtkn2IZ5GR/rUxzW5aWCrw4K3XLFv0tOeXNuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\ClassIntro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B9Hxwsd59CmRJiyNsUP0KGjjOFE/7Ew+9BwbCXXo5UKJuPleoVJXU/1JSjfa92IQsKpNeBOwSKcPte75kRjVIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Metotlar\\Metotlar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

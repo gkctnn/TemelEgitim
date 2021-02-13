@@ -1,0 +1,13 @@
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.exe
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.deps.json
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.runtimeconfig.json
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.runtimeconfig.dev.json
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.dll
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\bin\Debug\netcoreapp3.1\GenericIntro.pdb
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.csprojAssemblyReference.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.AssemblyInfoInputs.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.AssemblyInfo.cs
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.csproj.CoreCompileInputs.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.dll
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.pdb
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\KampIntro\GenericIntro\obj\Debug\netcoreapp3.1\GenericIntro.genruntimeconfig.cache
