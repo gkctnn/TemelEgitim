@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IPap12AkvWVCzekX/zQ2hAkTQ7GEAyB6Zoeo85+bJ8WTJdMzQQ6+G34YoLMKWnZFqpgmOPEJc68zqqgWaS4gGg==",
+  "dgSpecHash": "rFS2WXS583P4lihdTVt3LPV2tc5K8ax7yg7Wf3SnutANWcXeutcrhtaBwPtAuKOLOa/k0MKNFDf6yUbmOV/55A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP1\\OOP1.csproj",
+  "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP1\\OOP1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],

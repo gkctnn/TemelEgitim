@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Donguler\\Donguler.csproj": {}
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Donguler\\Donguler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Donguler\\Donguler.csproj": {
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Donguler\\Donguler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Donguler\\Donguler.csproj",
+        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Donguler\\Donguler.csproj",
         "projectName": "Donguler",
-        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Donguler\\Donguler.csproj",
+        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Donguler\\Donguler.csproj",
         "packagesPath": "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Donguler\\obj\\",
+        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Donguler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

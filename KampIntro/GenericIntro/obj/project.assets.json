@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\GenericIntro\\GenericIntro.csproj",
+      "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\GenericIntro\\GenericIntro.csproj",
       "projectName": "GenericIntro",
-      "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\GenericIntro\\GenericIntro.csproj",
+      "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\GenericIntro\\GenericIntro.csproj",
       "packagesPath": "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\GenericIntro\\obj\\",
+      "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\GenericIntro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

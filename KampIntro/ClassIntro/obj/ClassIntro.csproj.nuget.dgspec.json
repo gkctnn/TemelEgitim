@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\ClassIntro.csproj": {}
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\ClassIntro\\ClassIntro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\ClassIntro.csproj": {
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\ClassIntro\\ClassIntro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\ClassIntro.csproj",
+        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\ClassIntro\\ClassIntro.csproj",
         "projectName": "ClassIntro",
-        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\ClassIntro.csproj",
+        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\ClassIntro\\ClassIntro.csproj",
         "packagesPath": "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\ClassIntro\\obj\\",
+        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\ClassIntro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

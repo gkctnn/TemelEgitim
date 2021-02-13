@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP3\\OOP3.csproj": {}
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP3\\OOP3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP3\\OOP3.csproj": {
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP3\\OOP3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP3\\OOP3.csproj",
+        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP3\\OOP3.csproj",
         "projectName": "OOP3",
-        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP3\\OOP3.csproj",
+        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP3\\OOP3.csproj",
         "packagesPath": "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\OOP3\\obj\\",
+        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\OOP3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

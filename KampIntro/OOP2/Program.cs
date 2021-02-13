@@ -15,6 +15,8 @@ namespace OOP2
                 MusteriNo = "12345"
             };
 
+            Console.WriteLine(musteri1.MusteriNo);
+
             TuzelMusteri musteri2 = new TuzelMusteri
             {
                 Id = 2,

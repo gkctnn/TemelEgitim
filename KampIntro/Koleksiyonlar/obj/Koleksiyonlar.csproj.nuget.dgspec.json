@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj": {}
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj": {
+    "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj",
+        "projectUniqueName": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj",
         "projectName": "Koleksiyonlar",
-        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj",
+        "projectPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Koleksiyonlar\\Koleksiyonlar.csproj",
         "packagesPath": "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\KampIntro\\Koleksiyonlar\\obj\\",
+        "outputPath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\KampIntro\\Koleksiyonlar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
