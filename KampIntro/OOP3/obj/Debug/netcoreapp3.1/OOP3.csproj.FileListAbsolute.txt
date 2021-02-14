@@ -22,3 +22,4 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\KampIntro\OOP3\obj\Debug\netc
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\KampIntro\OOP3\obj\Debug\netcoreapp3.1\OOP3.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\KampIntro\OOP3\obj\Debug\netcoreapp3.1\OOP3.pdb
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\KampIntro\OOP3\obj\Debug\netcoreapp3.1\OOP3.genruntimeconfig.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\KampIntro\OOP3\obj\Debug\netcoreapp3.1\OOP3.csprojAssemblyReference.cache
