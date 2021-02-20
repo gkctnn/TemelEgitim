@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WNiNd2d7/MdjIVSTxBx1FYyWgrJIcMmr0d1QTDbrB7SiU72IDYFH18WSV0HK3ngKtOEeSdDqv98mB2gJg0a0OA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\Odev7\\ReCapProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
