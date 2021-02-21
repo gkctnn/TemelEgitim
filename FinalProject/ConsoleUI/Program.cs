@@ -13,7 +13,7 @@ namespace ConsoleUI
         {
             ProductTest();
 
-            CategoryTest();
+            //CategoryTest();
         }
 
         private static void CategoryTest()
@@ -49,10 +49,17 @@ namespace ConsoleUI
             //    Console.WriteLine(product.ProductName);
             //}
 
-            var products = productManager.GetProductDetails();
-            foreach (var product in products)
+            var result = productManager.GetProductDetails();
+            if (result.Success)
             {
-                Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
     }
