@@ -12,7 +12,21 @@ namespace ConsoleUI
         {
             //InMemoryCarDalTest();
 
-            EFCarDalTest();
+            //EFCarDalTest();
+
+            EFCarDtoTest();
+        }
+
+        private static void EFCarDtoTest()
+        {
+            CarManager carManager = new CarManager(new EFCarDal());
+
+            var carDetails = carManager.GetCarDetails();
+            foreach (var car in carDetails)
+            {
+                Console.WriteLine("CarName: {0} -- BrandName: {1} -- ColorName: {2} -- DailyPrice: {3}",
+                                    car.CarName, car.BrandName, car.ColorName, car.DailyPrice);
+            }
         }
 
         private static void EFCarDalTest()
@@ -23,7 +37,7 @@ namespace ConsoleUI
             var cars = carManager.GetAll();
             foreach (var car in cars)
             {
-                Console.WriteLine("CarId:{0} Description:{1} ModelYear:{2} DailyPrice{3}",
+                Console.WriteLine("CarId: {0} -- Description: {1} -- ModelYear: {2} -- DailyPrice: {3}",
                                     car.Id, car.Description, car.ModelYear, car.DailyPrice);
             }
 
@@ -31,7 +45,7 @@ namespace ConsoleUI
 
             var car1 = carManager.GetById(1);
             if (car1 != null)
-                Console.WriteLine("CarId:{0} Description:{1} ModelYear:{2} DailyPrice{3}",
+                Console.WriteLine("CarId: {0} -- Description: {1} -- ModelYear: {2} -- DailyPrice: {3}",
                                     car1.Id, car1.Description, car1.ModelYear, car1.DailyPrice);
 
             Console.WriteLine("************************************************");
@@ -39,7 +53,7 @@ namespace ConsoleUI
             var carsByBrandId = carManager.GetCarsByBrandId(1);
             foreach (var car in carsByBrandId)
             {
-                Console.WriteLine("CarId:{0} Description:{1} ModelYear:{2} DailyPrice{3} BrandId:{4}",
+                Console.WriteLine("CarId: {0} -- Description: {1} -- ModelYear: {2} -- DailyPrice: {3} -- BrandId: {4}",
                                     car.Id, car.Description, car.ModelYear, car.DailyPrice, car.BrandId);
             }
 
@@ -48,7 +62,7 @@ namespace ConsoleUI
             var carsByColorId = carManager.GetCarsByColorId(1);
             foreach (var car in carsByColorId)
             {
-                Console.WriteLine("CarId:{0} Description:{1} ModelYear:{2} DailyPrice{3} ColorId:{4}",
+                Console.WriteLine("CarId: {0} -- Description: {1} -- ModelYear: {2} -- DailyPrice: {3} -- ColorId: {4}",
                                     car.Id, car.Description, car.ModelYear, car.DailyPrice, car.ColorId);
             }
 
@@ -64,7 +78,7 @@ namespace ConsoleUI
                 Name = "a"
             };
 
-            carManager.Add(car2);
+            carManager.Insert(car2);
 
             Car car3 = new Car()
             {
@@ -76,7 +90,7 @@ namespace ConsoleUI
                 Name = "Name of car4"
             };
 
-            carManager.Add(car3);
+            carManager.Insert(car3);
         }
 
         private static void InMemoryCarDalTest()
