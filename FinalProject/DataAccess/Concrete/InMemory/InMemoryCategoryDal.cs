@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.InMemory
@@ -35,7 +36,12 @@ namespace DataAccess.Concrete.InMemory
             _categories.Remove(categoryToDelete);
         }
 
-        public List<Category> GetAll()
+        public Category Get(Expression<Func<Category, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public List<Category> GetAll(Expression<Func<Category, bool>> filter = null)
         {
             return _categories;
         }
