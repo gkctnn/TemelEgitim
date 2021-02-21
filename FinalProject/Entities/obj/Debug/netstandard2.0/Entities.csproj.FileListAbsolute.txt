@@ -7,3 +7,6 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\obj\Deb
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete

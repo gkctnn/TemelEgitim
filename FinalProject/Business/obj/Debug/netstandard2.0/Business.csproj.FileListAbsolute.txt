@@ -12,3 +12,5 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\obj\Deb
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\FinalProject\Business\bin\Debug\netstandard2.0\Core.pdb
