@@ -6,7 +6,6 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\bin\D
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
-C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
@@ -22,3 +21,4 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\Odev7\ReCapProject\DataAccess
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\Odev7\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\Odev7\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\Odev7\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache

@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.InMemory
@@ -22,7 +23,8 @@ namespace DataAccess.Concrete.InMemory
                     ColorId=1,
                     ModelYear=new DateTime(1993, 1, 1),
                     DailyPrice=150000,
-                    Description="Description of car1"
+                    Description="Description of car1",
+                    Name="Name of car1"
                 },
                 new Car
                 {
@@ -31,7 +33,8 @@ namespace DataAccess.Concrete.InMemory
                     ColorId=1,
                     ModelYear=new DateTime(1996, 1, 1),
                     DailyPrice=250000,
-                    Description="Description of car2"
+                    Description="Description of car2",
+                    Name="Name of car2"
                 }
             };
         }
@@ -56,7 +59,12 @@ namespace DataAccess.Concrete.InMemory
             }
         }
 
-        public List<Car> GetAll()
+        public Car Get(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
             return _cars;
         }
