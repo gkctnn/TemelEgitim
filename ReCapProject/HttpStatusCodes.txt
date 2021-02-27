@@ -1,0 +1,9 @@
+﻿200 (OK): Yanıtın başarılı olduğunu gösterir. Yani, istemci ile sunucu arasındaki iletişim herhangi bir hata olmadan sorunsuz bir şekilde yürütülmüştür
+201 (Created): Talebin sadece başarılı olmadığını, aynı zamanda bir kaynağın da yaratıldığını gösterir. Bu durum kodu, sunucuya gönderilen kaynağı tanımladığı için genellikle bir POST isteğiyle birlikte gelir.
+301 (Moved Permanently): Kaynak yeri değişir ve yönlendirme yapılır.
+400 (Bad Request): Gönderilen isteğin yanlış söz diziminden kaynaklanabilecek bir hata nedeniyle sunucu tarafından işlenemediğini gösterir.
+401 (Unauthorized): İstek için kimlik doğrulaması gerekir.
+403 (Forbidden): Erişim hakkı yoktur.
+404 (Not Found): Sayfa bulunamadı.
+500 (Internal Server Error): Sunucuda hata oluşur, istek karşılanmaz.
+502 (Bad Gateway): Kaynak sunucudan cevap alınamıyor.
