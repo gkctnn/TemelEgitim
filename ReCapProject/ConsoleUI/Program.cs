@@ -3,18 +3,110 @@ using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
+using System.Reflection;
+using System.Threading;
 
 namespace ConsoleUI
 {
+    public delegate void MyDelegate();
+    public delegate void MyDelegate2(string text);
+    public delegate int MyDelegate3(int number1, int number2);
+
     class Program
     {
         static void Main(string[] args)
         {
             //InMemoryCarDalTest();
 
-            EFCarDalTest();
+            //EFCarDalTest();
 
             //EFCarDtoTest();
+
+            //Reflection();
+
+            //Delegates();
+
+            Func();
+        }
+
+        private static void Func()
+        {
+            Matematik matematik = new Matematik();
+            Console.WriteLine(matematik.Topla(5, 6));
+
+            Func<int, int, int> add = matematik.Topla;
+            Console.WriteLine(add(10, 12));
+
+            Func<int> getRandomNumber = delegate ()
+            {
+                Random random = new Random();
+                return random.Next(1, 100);
+            };
+            Console.WriteLine(getRandomNumber());
+
+            Thread.Sleep(1000);
+
+            Func<int> getRandomNumber2 = () => new Random().Next(1, 100);
+            Console.WriteLine(getRandomNumber2());
+        }
+
+        private static void Delegates()
+        {
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.SendMessage();
+            customerManager.ShowAlert();
+
+            MyDelegate myDelegate = customerManager.SendMessage;
+            myDelegate += customerManager.ShowAlert;
+            myDelegate -= customerManager.SendMessage;
+            myDelegate();
+
+            MyDelegate2 myDelegate2 = customerManager.SendMessage2;
+            myDelegate2 += customerManager.ShowAlert2;
+            myDelegate2("Hello");
+
+            Matematik matematik = new Matematik();
+            MyDelegate3 myDelegate3 = matematik.Topla;
+            myDelegate3 += matematik.Carp;
+            Console.WriteLine(myDelegate3(2, 3));
+
+            Console.ReadLine();
+        }
+
+        private static void Reflection()
+        {
+            DortIslem dortIslem = new DortIslem(2, 3);
+            Console.WriteLine(dortIslem.Topla2());
+            Console.WriteLine(dortIslem.Topla(3, 4));
+
+            var tip = typeof(DortIslem);
+            DortIslem dortIslem2 = (DortIslem)Activator.CreateInstance(tip, 4, 6);
+            Console.WriteLine(dortIslem2.Topla2());
+            Console.WriteLine(dortIslem2.Topla(6, 8));
+
+            var instance = Activator.CreateInstance(tip, 8, 12);
+            MethodInfo methodInfo = instance.GetType().GetMethod("Topla2");
+            Console.WriteLine(methodInfo.Invoke(instance, null));
+
+            var methodlar = tip.GetMethods();
+            foreach (var info in methodlar)
+            {
+                Console.WriteLine("Method Adı: {0}", info.Name);
+
+                foreach (var parameter in info.GetParameters())
+                {
+                    Console.WriteLine("Parametre Adı: {0}", parameter.Name);
+                }
+
+                foreach (var attribute in info.GetCustomAttributes())
+                {
+                    Console.WriteLine("Attribute Adı: {0}", attribute.GetType().Name);
+                }
+
+                Console.WriteLine("");
+            }
+
+            Console.ReadLine();
         }
 
         private static void EFCarDtoTest()
@@ -176,6 +268,79 @@ namespace ConsoleUI
             {
                 Console.WriteLine(carResult1.Message);
             }
+        }
+    }
+
+    public class DortIslem
+    {
+        private int _sayi1;
+        private int _sayi2;
+
+        public DortIslem(int sayi1, int sayi2)
+        {
+            _sayi1 = sayi1;
+            _sayi2 = sayi2;
+        }
+
+        public int Topla(int sayi1, int sayi2)
+        {
+            return sayi1 + sayi2;
+        }
+
+        public int Carp(int sayi1, int sayi2)
+        {
+            return sayi1 * sayi2;
+        }
+
+        public int Topla2()
+        {
+            return _sayi1 + _sayi2;
+        }
+
+        [MethodName("Carpma")]
+        public int Carp2()
+        {
+            return _sayi1 * _sayi2;
+        }
+    }
+
+    class MethodNameAttribute : Attribute
+    {
+        public MethodNameAttribute(string name)
+        {
+
+        }
+    }
+
+    public class CustomerManager
+    {
+        public void SendMessage()
+        {
+            Console.WriteLine("Hello!");
+        }
+        public void ShowAlert()
+        {
+            Console.WriteLine("Be Careful!");
+        }
+        public void SendMessage2(string message)
+        {
+            Console.WriteLine(message);
+        }
+        public void ShowAlert2(string alert)
+        {
+            Console.WriteLine(alert);
+        }
+    }
+
+    public class Matematik
+    {
+        public int Topla(int sayi1, int sayi2)
+        {
+            return sayi1 + sayi2;
+        }
+        public int Carp(int sayi1, int sayi2)
+        {
+            return sayi1 * sayi2;
         }
     }
 }

@@ -12,7 +12,18 @@ namespace Core.DataAccess.EntityFramework
         where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {
+        [Obsolete("Dont use Add, instead use AddNew Method")]
         public void Add(TEntity entity)
+        {
+            using (TContext _context = new TContext())
+            {
+                var addedEntity = _context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                _context.SaveChanges();
+            }
+        }
+
+        public void AddNew(TEntity entity)
         {
             using (TContext _context = new TContext())
             {
