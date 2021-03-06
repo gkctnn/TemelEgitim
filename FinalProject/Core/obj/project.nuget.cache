@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JT4vJqK2OZ+akAdRmCd1fWsp5pAjbBoN3dr/ZGKQbOFwxxl2PUCsVrEHAiXY0B3k9Jy9BevFeGxJuzn1t1+MzQ==",
+  "dgSpecHash": "J0yfjzjcFmGW6txo8RstzBhmvc3fCBUbAPXrcI08YKWIji1L3pl8/kiIu17yEu5AtSKSFUtInKjfwJ6JSFScDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gokcenur.zenginal\\Desktop\\ED\\Lesson2\\Git_\\FinalProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\gokcenur.zenginal\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
