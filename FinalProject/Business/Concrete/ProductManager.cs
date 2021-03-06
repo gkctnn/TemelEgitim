@@ -9,7 +9,7 @@ using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.CrossCuttingConcerns.Validation.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 
 namespace Business.Concrete
 {
@@ -22,20 +22,9 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            //if (product.UnitPrice <= 0)
-            //{
-            //    return new ErrorResult(Messages.ProductUnitPriceInvalid);
-            //}
-
-            //if (product.ProductName.Length < 2)
-            //{
-            //    return new ErrorResult(Messages.ProductNameInvalid);
-            //}
-
-            ValidationTool.Validate(new ProductValidator(), product);
-
             _productDal.Add(product);
 
             return new SuccessResult(Messages.ProductAdded);
