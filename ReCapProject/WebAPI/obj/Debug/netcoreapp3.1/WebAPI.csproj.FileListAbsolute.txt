@@ -70,3 +70,4 @@ C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\WebAPI\bin\Debug
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gokcenur.zenginal\Desktop\ED\Lesson2\Git_\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
