@@ -30,7 +30,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(), Messages.RentalListed);
         }
 
-        public IResult CheckUnReturnedCarByCarId(int carId)
+        private IResult CheckUnReturnedCarByCarId(int carId)
         {
             Rental carWhichChecked = _rentalDal.Get(u => u.CarId == carId && !u.ReturnDate.HasValue);
 

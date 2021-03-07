@@ -8,12 +8,15 @@ using Core.Utilities.Interceptors;
 using Core.Utilities.Messages;
 using FluentValidation;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Core.Aspects.Autofac.Validation
 {
     public class ValidationAspect : MethodInterception
     {
-        private Type _validatorType;
+        private readonly Type _validatorType;
+
+        [SuppressMessage("Major Code Smell", "S112:General exceptions should never be thrown", Justification = "<Pending>")]
         public ValidationAspect(Type validatorType)
         {
             if (!typeof(IValidator).IsAssignableFrom(validatorType))

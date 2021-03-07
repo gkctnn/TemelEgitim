@@ -10,7 +10,7 @@ namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryCategoryDal : ICategoryDal
     {
-        List<Category> _categories;
+        private readonly List<Category> _categories;
 
         public InMemoryCategoryDal()
         {
@@ -24,14 +24,14 @@ namespace DataAccess.Concrete.InMemory
             };
         }
 
-        public void Add(Category category)
+        public void Add(Category entity)
         {
-            _categories.Add(category);
+            _categories.Add(entity);
         }
 
-        public void Delete(Category category)
+        public void Delete(Category entity)
         {
-            var categoryToDelete = _categories.SingleOrDefault(c => c.CategoryId == category.CategoryId);
+            var categoryToDelete = _categories.SingleOrDefault(c => c.CategoryId == entity.CategoryId);
 
             _categories.Remove(categoryToDelete);
         }
@@ -40,17 +40,17 @@ namespace DataAccess.Concrete.InMemory
         {
             throw new NotImplementedException();
         }
-        
+
         public List<Category> GetAll(Expression<Func<Category, bool>> filter = null)
         {
             return _categories;
         }
 
-        public void Update(Category category)
+        public void Update(Category entity)
         {
-            var categoryToUpdate = _categories.SingleOrDefault(c => c.CategoryId == category.CategoryId);
+            var categoryToUpdate = _categories.SingleOrDefault(c => c.CategoryId == entity.CategoryId);
 
-            categoryToUpdate.CategoryName = category.CategoryName;
+            categoryToUpdate.CategoryName = entity.CategoryName;
         }
     }
 }

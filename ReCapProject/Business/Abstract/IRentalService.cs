@@ -13,6 +13,5 @@ namespace Business.Abstract
         IResult Insert(Rental rental);
         IResult Update(Rental rental);
         IResult Delete(Rental rental);
-        IResult CheckUnReturnedCarByCarId(int carId);
     }
 }

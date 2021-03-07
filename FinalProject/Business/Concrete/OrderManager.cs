@@ -8,7 +8,7 @@ namespace Business.Concrete
 {
     public class OrderManager : IOrderService
     {
-        IOrderDal _orderDal;
+        private readonly IOrderDal _orderDal;
 
         public OrderManager(IOrderDal orderDal)
         {

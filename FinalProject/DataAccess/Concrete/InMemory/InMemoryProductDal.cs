@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryProductDal : IProductDal
     {
-        List<Product> _products;
+        private readonly List<Product> _products;
 
         public InMemoryProductDal()
         {
@@ -60,14 +60,14 @@ namespace DataAccess.Concrete.InMemory
             };
         }
 
-        public void Add(Product product)
+        public void Add(Product entity)
         {
-            _products.Add(product);
+            _products.Add(entity);
         }
 
-        public void Delete(Product product)
+        public void Delete(Product entity)
         {
-            Product productToDelete = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
+            Product productToDelete = _products.SingleOrDefault(p => p.ProductId == entity.ProductId);
 
             _products.Remove(productToDelete);
 
@@ -100,14 +100,14 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
-        public void Update(Product product)
+        public void Update(Product entity)
         {
-            Product productToUpdate = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
+            Product productToUpdate = _products.SingleOrDefault(p => p.ProductId == entity.ProductId);
 
-            productToUpdate.ProductName = product.ProductName;
-            productToUpdate.CategoryId = product.CategoryId;
-            productToUpdate.UnitPrice = product.UnitPrice;
-            productToUpdate.UnitsInStock = product.UnitsInStock;
+            productToUpdate.ProductName = entity.ProductName;
+            productToUpdate.CategoryId = entity.CategoryId;
+            productToUpdate.UnitPrice = entity.UnitPrice;
+            productToUpdate.UnitsInStock = entity.UnitsInStock;
         }
     }
 }
